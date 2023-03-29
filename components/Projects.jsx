@@ -18,6 +18,7 @@ import apiintegrationImg from '../public/assets/projects/apiintegration.png'
 import lmsImg from '../public/assets/projects/lms.png'
 import searchingImg from '../public/assets/projects/searching.png'
 import searchFilterImg from '../public/assets/projects/search-filter.png'
+import madlibsImg from '../public/assets/projects/madlibs.png'
 import ProjectItem from './ProjectItem';
 
 const Projects = () => {
@@ -77,6 +78,13 @@ const Projects = () => {
             tech='HTML, CSS, JS'
 
           />
+            <ProjectItem
+              title='Madlibs App'
+              backgroundImg={madlibsImg}
+              projectUrl='/madlibs'
+              tech='HTML, CSS, JS'
+  
+            />
           <ProjectItem
             title='Stopwatch'
             backgroundImg={stopwatchImg}

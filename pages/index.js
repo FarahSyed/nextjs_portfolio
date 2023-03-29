@@ -12,7 +12,7 @@ export default function Home() {
     <div>
       <Head>
         <title>Farah Syed | MERN Stack Developer</title>
-        <meta name="description" content="I’m a front-end web developer specializing in building (and occasionally designing) exceptional digital experiences." />
+        <meta name="description" content="I’m a MERN stack developer with a focus on building well-designed (UI) and functional (UX) web and mobile hybrid applications for exceptional digital experiences." />
         <link rel="icon" href="/logo.png" />
       </Head>
     <Main />
