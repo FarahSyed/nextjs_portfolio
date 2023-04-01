@@ -27,14 +27,12 @@ const signuplogin = () => {
           <p>Project</p>
           <h2>Overview</h2>
           <p>
-            This app was built using React JS and is hosted on Firebase. Users
-            are able to search properties based on an Address, City, or ZIP code
-            to retrieve a list of active properties currently for sale. You will
-            be able to view signuplogin information as well as the specific
-            location of the signuplogin integrated with the Google Maps API. User
-            authentication is available so you can signup and signin to your
-            account with an email address in order to save your favorite
-            properties. This is made possible with Zillow API.
+            This app was built using HTML, CSS and is hosted on Firebase. It is a simple
+            Signup and login UI created with several HTML elements including HTML5 
+            form controls with validation and styled using CSS external style sheet.
+            Users are able to signup using their Full Name, Email, and a Password of 
+            their choice which must be atleast 6 characters long. They can also login 
+            using Email and Password.
           </p>
           <a
             href='https://github.com/Dev-Farah/Login_and_Signup_Form'
