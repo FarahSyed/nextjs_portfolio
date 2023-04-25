@@ -34,7 +34,7 @@ const Main = () => {
           </p>
           <div className='flex items-center justify-between max-w-[330px] m-auto py-4'>
             <a
-              href='https://www.linkedin.com/'
+              href={process.env.NEXT_PUBLIC_LINKEDIN}
               target='_blank'
               rel='noreferrer'
             >
@@ -43,7 +43,7 @@ const Main = () => {
               </div>
             </a>
             <a
-              href='https://github.com/Dev-Farah'
+              href={process.env.NEXT_PUBLIC_GITHUB}
               target='_blank'
               rel='noreferrer'
             >

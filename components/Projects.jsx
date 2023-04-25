@@ -1,25 +1,11 @@
 import Image from 'next/image';
 import Link from 'next/link';
 import React from 'react';
-import signuploginImg from '../public/assets/projects/signuplogin.png';
-import appleImg from '../public/assets/projects/apple.png'
-import pokemonImg from '../public/assets/projects/pokemon.png'
-import upworkImg from '../public/assets/projects/upwork.png'
-import dommanipulationImg from '../public/assets/projects/dommanipulation.png'
-import todoImg1 from '../public/assets/projects/todo1.png'
-import calculatorImg from '../public/assets/projects/calculator.png'
-import quizImg1 from '../public/assets/projects/quiz1.png'
-import mascoImg from '../public/assets/projects/masco.png'
-import stopwatchImg from '../public/assets/projects/stopwatch.png'
-import quizImg2 from '../public/assets/projects/quiz2.png'
-import todoImg2 from '../public/assets/projects/todo2.png'
-import mcdonaldsImg from '../public/assets/projects/mcdonalds.png'
-import apiintegrationImg from '../public/assets/projects/apiintegration.png'
-import lmsImg from '../public/assets/projects/lms.png'
-import searchingImg from '../public/assets/projects/searching.png'
-import searchFilterImg from '../public/assets/projects/search-filter.png'
-import madlibsImg from '../public/assets/projects/madlibs.png'
-import ProjectItem from './ProjectItem';
+import allProjects from './AllProjects';
+import { FaGithub } from 'react-icons/fa';
+import { AiFillEye } from 'react-icons/ai';
+import { IoIosArrowDroprightCircle } from 'react-icons/io';
+
 
 const Projects = () => {
   return (
@@ -30,135 +16,66 @@ const Projects = () => {
         </p>
         <h2 className='py-4'>What I&apos;ve Built</h2>
         <div className='grid md:grid-cols-3 gap-16'>
-          <ProjectItem
-            title='Sign Up/Login UI'
-            backgroundImg={signuploginImg}
-            projectUrl='/signuplogin'
-            tech='HTML, CSS'
-          />
-          <ProjectItem
-            title='Apple - Landing Page'
-            backgroundImg={appleImg}
-            projectUrl='/apple'
-            tech='HTML, CSS'
 
-          />
-          <ProjectItem
-            title='Pokemon App'
-            backgroundImg={pokemonImg}
-            projectUrl='/pokemon'
-            tech='HTML, CSS'
-
-          />
-          <ProjectItem
-            title='Upwork'
-            backgroundImg={upworkImg}
-            projectUrl='/upwork'
-            tech='HTML, CSS'
-
-          />
-          <ProjectItem
-            title='DOM Manipulation'
-            backgroundImg={dommanipulationImg}
-            projectUrl='/dommanipulation'
-            tech='HTML, CSS, JS'
-
-          />
-          <ProjectItem
-            title='Todo App'
-            backgroundImg={todoImg1}
-            projectUrl='/todo1'
-            tech='HTML, CSS, JS'
-
-          />
-          <ProjectItem
-            title='Calculator'
-            backgroundImg={calculatorImg}
-            projectUrl='/calculator'
-            tech='HTML, CSS, JS'
-
-          />
-            <ProjectItem
-              title='Madlibs App'
-              backgroundImg={madlibsImg}
-              projectUrl='/madlibs'
-              tech='HTML, CSS, JS'
-  
-            />
-          <ProjectItem
-            title='Stopwatch'
-            backgroundImg={stopwatchImg}
-            projectUrl='/stopwatch'
-            tech='HTML, CSS, JS'
-
-          />
-          <ProjectItem
-            title='Quiz'
-            backgroundImg={quizImg1}
-            projectUrl='/quiz'
-            tech='HTML, CSS, JS'
-
-          />
-          <ProjectItem
-            title='Masco'
-            backgroundImg={mascoImg}
-            projectUrl='/masco'
-            tech='HTML, CSS, JS'
-
-          />
-          <ProjectItem
-            title='Site Search'
-            backgroundImg={searchingImg}
-            projectUrl='/searching'
-            tech='HTML, CSS, JS-ES2105'
-
-          />
-            <ProjectItem
-              title='React Todo'
-              backgroundImg={todoImg2}
-              projectUrl='/todo2'
-              tech='ReactJS'
-  
-            />
-            <ProjectItem
-              title='Site Search/Filter'
-              backgroundImg={searchFilterImg}
-              projectUrl='/searchFilter'
-              tech='ReactJS'
-  
-            />
-          <ProjectItem
-            title='Quiz'
-            backgroundImg={quizImg2}
-            projectUrl='/quiz2'
-            tech='ReactJS'
-
-          />
-          <ProjectItem
-            title='Mc Donalds'
-            backgroundImg={mcdonaldsImg}
-            projectUrl='/mcdonalds'
-            tech='ReactJS'
-
-          />
-          <ProjectItem
-            title='API Integration'
-            backgroundImg={apiintegrationImg}
-            projectUrl='/apiintegration'
-            tech='ReactJS'
-
-          />
-          <ProjectItem
-            title='LMS'
-            backgroundImg={lmsImg}
-            projectUrl='/lms'
-            tech='ReactJS'
-
-          />
+        {allProjects && allProjects.length > 0
+          ? allProjects.map((e, i) => {
+            return (
+              <section key={i}>
+                <div className="relative bg-white p-3 rounded-xl shadow-xl hover:scale-105 ease-in duration-300">
+                  <section className="relative flex items-center justify-center h-auto w-full rounded-xl group hover:bg-gradient-to-r from-[#5651e5] to-[#709dff]">
+                    <Image
+                      className="rounded-xl group-hover:opacity-10"
+                      src={e.image}
+                      alt={e.title}
+                    />
+                    <div className="hidden w-40 group-hover:block absolute top-[50%] left-[50%] translate-x-[-50%] translate-y-[-50%]">
+                      <section className="flex justify-between">
+                        <a
+                          href="https://github.com/Dev-Farah"
+                          target="_blank"
+                          rel="noreferrer"
+                        >
+                          <div className="rounded-full p-3 bg-black bg-opacity-40 text-white text-2xl cursor-pointer hover:scale-110 ease-in duration-300">
+                            <AiFillEye />
+                          </div>
+                        </a>
+                        <a
+                          href={e.sourceCode}
+                          target="_blank"
+                          rel="noreferrer"
+                        >
+                          <div className="rounded-full p-3 bg-black bg-opacity-40 text-white text-2xl cursor-pointer hover:scale-110 ease-in duration-300">
+                            <FaGithub />
+                          </div>
+                        </a>
+                      </section>
+                      
+                    </div>
+                  </section>
+                  <span className="p-1.5 bg-white rounded-lg absolute top-[65%] left-[50%] translate-x-[-50%] translate-y-[-50%]">
+                    <small className="px-1 font-bold text-gray-500">
+                      {e.category}
+                    </small>
+                  </span>
+                  <section className="p-2">
+                    <h3 className="pt-3 text-center text-xl">{e.title}</h3>
+                      <span className='flex justify-end'>
+                      <Link href={e.projectUrl}>
+                        <IoIosArrowDroprightCircle className="text-3xl text-gray-600" />
+                      </Link>
+                      </span>
+                  </section>
+                </div>
+              </section>
+            );
+          })
+        : null}
+        
         </div>
       </div>
     </div>
   );
 };
+
 
 export default Projects;
