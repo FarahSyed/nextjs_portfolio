@@ -18,10 +18,29 @@ const Navbar = () => {
 
   useEffect(() => {
     if (
-      router.asPath === '/signuplogin' ||
       router.asPath === '/apple' ||
-      router.asPath === '/netflix' ||
-      router.asPath === '/twitch'
+      router.asPath === '/signuplogin' ||
+      router.asPath === '/pokemon' ||
+      router.asPath === '/upwork' ||
+      router.asPath === '/dommanipulation' ||
+      router.asPath === '/todo1' ||
+      router.asPath === '/calculator' ||
+      router.asPath === '/madlibs' ||
+      router.asPath === '/stopwatch' ||
+      router.asPath === '/quiz' ||
+      router.asPath === '/masco' ||
+      router.asPath === '/searching' ||
+      router.asPath === '/todo2' ||
+      router.asPath === '/searchFilter' ||
+      router.asPath === '/quiz2' ||
+      router.asPath === '/mcdonalds' ||
+      router.asPath === '/apiintegration' ||
+      router.asPath === '/lms' ||
+      router.asPath === '/reactnativeloginscreens' ||
+      router.asPath === '/reactnativetodo' ||
+      router.asPath === '/reactnativeapiintegration' ||
+      router.asPath === '/reactnativegeolocation' ||
+      router.asPath === '/reactnativepizzaapp'
     ) {
       setNavBg('transparent');
       setLinkColor('#ecf0f3');
@@ -70,7 +89,7 @@ const Navbar = () => {
           {/* </a> */}
         </Link>
         <div>
-          <ul style={{ color: `${linkColor}` }} className='hidden md:flex'>
+          <ul style={{ color: `${linkColor}` }} className='hidden md:flex group'>
             <li className='ml-10 text-sm font-semibold uppercase hover:border-b'>
               <Link href='/'>Home</Link>
             </li>

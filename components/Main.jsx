@@ -14,7 +14,7 @@ const Main = () => {
             LET&#39;S BUILD SOMETHING TOGETHER
           </p>
           <h1 className='py-4 text-gray-700'>
-            Hi, I&#39;m <span className='text-[#5651e5]'> Farah</span> a
+            Hi, I&#39;m <span className='text-[#5651e5]'>Farah</span> a
           </h1>
           <h1 className='py-2 text-gray-700'><Typewriter
             options={{
@@ -23,7 +23,9 @@ const Main = () => {
                 'Full/MERN Stack Developer',
                 'Mobile App Developer',
                 'React Developer',
-                'React Native Developer' ],
+                'React Native Developer',
+                'NextJs Developer',
+               ],
               autoStart: true,
               loop: true,
             }}

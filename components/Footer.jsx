@@ -3,7 +3,7 @@ import Image from 'next/image';
 import Link from 'next/link';
 import NavLogo from '../public/assets/navLogo.png'
 import { HiOutlineChevronDoubleUp } from 'react-icons/hi';
-import { BiCopyright } from 'react-icons/bi';
+
 
 const Footer = () => {
   return (
@@ -43,5 +43,6 @@ const Footer = () => {
     </div>
   );
 };
+
 
 export default Footer;

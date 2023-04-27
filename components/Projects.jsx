@@ -31,7 +31,7 @@ const Projects = () => {
                     <div className="hidden w-40 group-hover:block absolute top-[50%] left-[50%] translate-x-[-50%] translate-y-[-50%]">
                       <section className="flex justify-between">
                         <a
-                          href="https://github.com/Dev-Farah"
+                          href={e.projectUrl}
                           target="_blank"
                           rel="noreferrer"
                         >
@@ -52,15 +52,15 @@ const Projects = () => {
                       
                     </div>
                   </section>
-                  <span className="p-1.5 bg-white rounded-lg absolute top-[65%] left-[50%] translate-x-[-50%] translate-y-[-50%]">
+                  <span className="p-1.5 bg-white rounded-lg absolute top-[67%] left-[50%] translate-x-[-50%] translate-y-[-50%]">
                     <small className="px-1 font-bold text-gray-500">
                       {e.category}
                     </small>
                   </span>
-                  <section className="p-2">
+                  <section className="pt-2 px-2">
                     <h3 className="pt-3 text-center text-xl">{e.title}</h3>
                       <span className='flex justify-end'>
-                      <Link href={e.projectUrl}>
+                      <Link href={e.relativeUrl}>
                         <IoIosArrowDroprightCircle className="text-3xl text-gray-600" />
                       </Link>
                       </span>

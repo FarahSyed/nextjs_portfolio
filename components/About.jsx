@@ -3,7 +3,7 @@ import Image from 'next/image';
 import Link from 'next/link';
 import AboutImg from '../public/assets/about.jpg';
 import Avatar from '../public/assets/avatar.png';
-// import Avatar from '../public/assets/avatar.jpeg';
+
 
 const About = () => {
   return (
@@ -38,5 +38,6 @@ const About = () => {
     </div>
   );
 };
+
 
 export default About;
