@@ -14,7 +14,7 @@ import NextJS from '../public/assets/skills/nextjs.png'
 import NodeJS from '../public/assets/skills/node.png'
 import ExpressJS from '../public/assets/skills/express.png'
 import MongoDB from '../public/assets/skills/mongo.png'
-import AWS from '../public/assets/skills/aws.png';
+
 
 const Skills = () => {
   return (
@@ -111,7 +111,7 @@ const Skills = () => {
                 <Image src={NextJS} width='64px' height='64px' alt='/' />
               </div>
               <div className='flex flex-col items-center justify-center'>
-                <h3>Next</h3>
+                <h3>NextJS</h3>
               </div>
             </div>
           </div>
@@ -170,5 +170,6 @@ const Skills = () => {
     </div>
   );
 };
+
 
 export default Skills;

@@ -5,6 +5,7 @@ import { BsFillPersonLinesFill } from 'react-icons/bs';
 import { FaGithub, FaLinkedinIn } from 'react-icons/fa';
 import Typewriter from 'typewriter-effect';
 
+
 const Main = () => {
   return (
     <div id='home' className='w-full h-screen text-center'>
@@ -24,7 +25,7 @@ const Main = () => {
                 'Mobile App Developer',
                 'React Developer',
                 'React Native Developer',
-                'NextJs Developer',
+                'NextJS Developer',
                ],
               autoStart: true,
               loop: true,
@@ -69,5 +70,6 @@ const Main = () => {
     </div>
   );
 };
+
 
 export default Main;

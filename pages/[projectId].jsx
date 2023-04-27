@@ -16,7 +16,7 @@ function projectId() {
     return obj
   }
   })
-  // const { id, title, image, relativeUrl, sourceCode, tech, category, description} = project;
+  // const { id, title, image, relativeUrl, projectUrl, sourceCode, tech, category, description} = project;
 
   return (
     <>{project ?
@@ -24,9 +24,9 @@ function projectId() {
       <div className='w-full h-[50vh] relative'>
         <div className='absolute top-0 left-0 w-full h-[50vh] bg-black/80 z-10' />
         <Image
-          className='absolute z-1'
+          className='absolute z-1 object-cover' //  fill-current is also not working here
           layout='fill'
-          objectFit='cover'
+          // objectFit='cover'
           src={project.image}
           alt='/'
         />
@@ -66,7 +66,7 @@ function projectId() {
             ?
             project.tech.map((x, i) => {
               return (
-                <div className='grid grid-cols-3 md:grid-cols-1'>
+                <div key={i} className='grid grid-cols-3 md:grid-cols-1'>
                   <p className='text-gray-600 py-2 flex items-center'>
                     <RiRadioButtonFill className='pr-1' />{x}
                   </p>
@@ -86,4 +86,5 @@ function projectId() {
   )
 }
 
-export default projectId
+
+export default projectId;
