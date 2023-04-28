@@ -5,7 +5,7 @@ import Link from 'next/link';
 import allProjects from '../components/AllProjects';
 
 
-function projectId() {
+function ProjectId() {
 
   const router = useRouter();
   const projectId = router.query.projectId;
@@ -87,4 +87,4 @@ function projectId() {
 }
 
 
-export default projectId;
+export default ProjectId;
