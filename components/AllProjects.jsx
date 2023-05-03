@@ -2,7 +2,7 @@ const allProjects = [
   {
     id: 1,
     title: "Apple - Landing Page",
-    image: require('../public/assets/projects/apple.PNG'),
+    image: require('../public/assets/projects/apple.jpg'),
     relativeUrl: "/apple",
     projectUrl: "https://apple-rep.web.app",
     sourceCode: `${process.env.NEXT_PUBLIC_GITHUB}Apple.com_Home_Page`,
@@ -14,7 +14,7 @@ const allProjects = [
   {
     id: 2,
     title: "Pokemon",
-    image: require('../public/assets/projects/pokemon.PNG'),
+    image: require('../public/assets/projects/pokemon.jpg'),
     relativeUrl: "/pokemon",
     projectUrl: "https://pokemon-rep.web.app/",
     sourceCode: `${process.env.NEXT_PUBLIC_GITHUB}Pokemon.com_Home_Page`,
@@ -26,7 +26,7 @@ const allProjects = [
   {
     id: 3,
     title: "Sign Up/Login UI",
-    image: require('../public/assets/projects/signuplogin.PNG'),
+    image: require('../public/assets/projects/signuplogin.jpg'),
     relativeUrl: "/signuplogin",
     projectUrl: "https://signup-and-login-forms.web.app",
     sourceCode: `${process.env.NEXT_PUBLIC_GITHUB}Login_and_Signup_Form`,
@@ -38,7 +38,7 @@ const allProjects = [
   {
     id: 4,
     title: "Upwork",
-    image: require('../public/assets/projects/upwork.PNG'),
+    image: require('../public/assets/projects/upwork.jpg'),
     relativeUrl: "/upwork",
     projectUrl: "https://upwork-rep.web.app/",
     sourceCode: `${process.env.NEXT_PUBLIC_GITHUB}Upwork.com_Home_Page`,
@@ -50,7 +50,7 @@ const allProjects = [
   {
     id: 5,
     title: "DOM Manipulation",
-    image: require('../public/assets/projects/dommanipulation.PNG'),
+    image: require('../public/assets/projects/dommanipulation.jpg'),
     relativeUrl: "/dommanipulation",
     projectUrl: "https://js-dom-manipulation.web.app/",
     sourceCode: `${process.env.NEXT_PUBLIC_GITHUB}DOM_Manipulation`,
@@ -62,7 +62,7 @@ const allProjects = [
   {
     id: 6,
     title: "To-do App",
-    image: require('../public/assets/projects/todo1.png'),
+    image: require('../public/assets/projects/todo1.jpg'),
     relativeUrl: "/todo1",
     projectUrl: "https://to-do-something.web.app/",
     sourceCode: `${process.env.NEXT_PUBLIC_GITHUB}To_Do_App_with_Firebase_Database`,
@@ -74,7 +74,7 @@ const allProjects = [
   {
     id: 7,
     title: "Calculator",
-    image: require('../public/assets/projects/calculator.png'),
+    image: require('../public/assets/projects/calculator.jpg'),
     relativeUrl: "/calculator",
     projectUrl: "https://a-basic-calculator.web.app/",
     sourceCode: `${process.env.NEXT_PUBLIC_GITHUB}Calculator_App`,
@@ -86,7 +86,7 @@ const allProjects = [
   {
     id: 8,
     title: "Madlibs App",
-    image: require('../public/assets/projects/madlibs.png'),
+    image: require('../public/assets/projects/madlibs.jpg'),
     relativeUrl: "/madlibs",
     projectUrl: "",
     sourceCode: `${process.env.NEXT_PUBLIC_GITHUB}Mad_Libs_App`,
@@ -98,7 +98,7 @@ const allProjects = [
   {
     id: 9,
     title: "Stopwatch",
-    image: require('../public/assets/projects/stopwatch.png'),
+    image: require('../public/assets/projects/stopwatch.jpg'),
     relativeUrl: "/stopwatch",
     projectUrl: "https://digi-stopwatch.web.app/",
     sourceCode: `${process.env.NEXT_PUBLIC_GITHUB}Stopwatch`,
@@ -110,7 +110,7 @@ const allProjects = [
   {
     id: 10,
     title: "Quiz App",
-    image: require('../public/assets/projects/quiz1.png'),
+    image: require('../public/assets/projects/quiz1.jpg'),
     relativeUrl: "/quiz",
     projectUrl: "https://a-quiz-app.web.app/",
     sourceCode: `${process.env.NEXT_PUBLIC_GITHUB}Quiz_App`,
@@ -122,7 +122,7 @@ const allProjects = [
   {
     id: 11,
     title: "Masco",
-    image: require('../public/assets/projects/masco.png'),
+    image: require('../public/assets/projects/masco.jpg'),
     relativeUrl: "/masco",
     projectUrl: "https://masco-786.web.app",
     sourceCode: `${process.env.NEXT_PUBLIC_GITHUB}FMP_Masco`,
@@ -134,7 +134,7 @@ const allProjects = [
   {
     id: 12,
     title: "Site Search",
-    image: require('../public/assets/projects/searching.png'),
+    image: require('../public/assets/projects/searching.jpg'),
     relativeUrl: "/searching",
     projectUrl: "",
     sourceCode: `${process.env.NEXT_PUBLIC_GITHUB}Site_Search`,
@@ -146,7 +146,7 @@ const allProjects = [
   {
     id: 13,
     title: "React To-do App",
-    image: require('../public/assets/projects/todo2.png'),
+    image: require('../public/assets/projects/todo2.jpg'),
     relativeUrl: "/todo2",
     projectUrl: "https://should-to-do.web.app/",
     sourceCode: `${process.env.NEXT_PUBLIC_GITHUB}React_To_Do_App_with_Firebase/blob/master/firebase-to-do-app%20(using%20firebasemethods.js)`,
@@ -158,7 +158,7 @@ const allProjects = [
   {
     id: 14,
     title: "Site Search/Filter",
-    image: require('../public/assets/projects/search-filter.png'),
+    image: require('../public/assets/projects/search-filter.jpg'),
     relativeUrl: "/searchFilter",
     projectUrl: "",
     sourceCode: `${process.env.NEXT_PUBLIC_GITHUB}React_Site_with_Searching_Filtering`,
@@ -170,7 +170,7 @@ const allProjects = [
   {
     id: 15,
     title: "Quiz App",
-    image: require('../public/assets/projects/quiz2.png'),
+    image: require('../public/assets/projects/quiz2.jpg'),
     relativeUrl: "/quiz2",
     projectUrl: "https://a-react-quiz.web.app/",
     sourceCode: `${process.env.NEXT_PUBLIC_GITHUB}React_Quiz_App`,
@@ -182,7 +182,7 @@ const allProjects = [
   {
     id: 16,
     title: "Mc Donalds",
-    image: require('../public/assets/projects/mcdonalds.png'),
+    image: require('../public/assets/projects/mcdonalds.jpg'),
     relativeUrl: "/mcdonalds",
     projectUrl: "https://mcdonalds-rep.web.app",
     sourceCode: `${process.env.NEXT_PUBLIC_GITHUB}Mcdonalds.com`,
@@ -194,7 +194,7 @@ const allProjects = [
   {
     id: 17,
     title: "API Integration",
-    image: require('../public/assets/projects/apiintegration.png'),
+    image: require('../public/assets/projects/apiintegration.jpg'),
     relativeUrl: "/apiintegration",
     projectUrl: "https://fakestore-api.web.app/",
     sourceCode: `${process.env.NEXT_PUBLIC_GITHUB}Api_Integration`,
@@ -206,7 +206,7 @@ const allProjects = [
   {
     id: 18,
     title: "LMS",
-    image: require('../public/assets/projects/lms.png'),
+    image: require('../public/assets/projects/lms.jpg'),
     relativeUrl: "/lms",
     projectUrl: "https://institute-lms.web.app/",
     sourceCode: `${process.env.NEXT_PUBLIC_GITHUB}Learning_Management_System`,
@@ -218,7 +218,7 @@ const allProjects = [
   {
     id: 19,
     title: "Login Screens",
-    image: require('../public/assets/projects/loginui.png'),
+    image: require('../public/assets/projects/loginui.jpg'),
     relativeUrl: "/reactnativeloginscreens",
     projectUrl: "",
     sourceCode: `${process.env.NEXT_PUBLIC_GITHUB}React_Native_Login_Screens`,
@@ -230,7 +230,7 @@ const allProjects = [
   {
     id: 20,
     title: "To-do App",
-    image: require('../public/assets/projects/r-n-todo2.png'),
+    image: require('../public/assets/projects/r-n-todo2.jpg'),
     relativeUrl: "/reactnativetodo",
     projectUrl: "",
     sourceCode: `${process.env.NEXT_PUBLIC_GITHUB}React_Native_To_Do_App`,
@@ -242,7 +242,7 @@ const allProjects = [
   {
     id: 21,
     title: "API Integration",
-    image: require('../public/assets/projects/r-n-apiintegration.png'),
+    image: require('../public/assets/projects/r-n-apiintegration.jpg'),
     relativeUrl: "/reactnativeapiintegration",
     projectUrl: "",
     sourceCode: `${process.env.NEXT_PUBLIC_GITHUB}React_Native_Api_Integration`,
@@ -254,7 +254,7 @@ const allProjects = [
   {
     id: 22,
     title: "Maps & Geo Location",
-    image: require('../public/assets/projects/r-n-maps.png'),
+    image: require('../public/assets/projects/r-n-maps.jpg'),
     relativeUrl: "/reactnativegeolocation",
     projectUrl: "",
     sourceCode: `${process.env.NEXT_PUBLIC_GITHUB}Geo_Location`,
@@ -266,7 +266,7 @@ const allProjects = [
   {
     id: 23,
     title: "Pizza App",
-    image: require('../public/assets/projects/pizza-app.png'),
+    image: require('../public/assets/projects/pizza-app.jpg'),
     relativeUrl: "/reactnativepizzaapp",
     projectUrl: "",
     sourceCode: `${process.env.NEXT_PUBLIC_GITHUB}Pizza_App`,
