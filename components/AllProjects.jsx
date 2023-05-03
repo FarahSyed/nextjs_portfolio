@@ -2,7 +2,7 @@ const allProjects = [
   {
     id: 1,
     title: "Apple - Landing Page",
-    image: require('../public/assets/projects/apple.png'),
+    image: require('../public/assets/projects/apple.PNG'),
     relativeUrl: "/apple",
     projectUrl: "https://apple-rep.web.app",
     sourceCode: `${process.env.NEXT_PUBLIC_GITHUB}Apple.com_Home_Page`,
@@ -14,7 +14,7 @@ const allProjects = [
   {
     id: 2,
     title: "Pokemon",
-    image: require('../public/assets/projects/pokemon.png'),
+    image: require('../public/assets/projects/pokemon.PNG'),
     relativeUrl: "/pokemon",
     projectUrl: "https://pokemon-rep.web.app/",
     sourceCode: `${process.env.NEXT_PUBLIC_GITHUB}Pokemon.com_Home_Page`,
@@ -26,7 +26,7 @@ const allProjects = [
   {
     id: 3,
     title: "Sign Up/Login UI",
-    image: require('../public/assets/projects/signuplogin.png'),
+    image: require('../public/assets/projects/signuplogin.PNG'),
     relativeUrl: "/signuplogin",
     projectUrl: "https://signup-and-login-forms.web.app",
     sourceCode: `${process.env.NEXT_PUBLIC_GITHUB}Login_and_Signup_Form`,
@@ -38,7 +38,7 @@ const allProjects = [
   {
     id: 4,
     title: "Upwork",
-    image: require('../public/assets/projects/upwork.png'),
+    image: require('../public/assets/projects/upwork.PNG'),
     relativeUrl: "/upwork",
     projectUrl: "https://upwork-rep.web.app/",
     sourceCode: `${process.env.NEXT_PUBLIC_GITHUB}Upwork.com_Home_Page`,
@@ -50,7 +50,7 @@ const allProjects = [
   {
     id: 5,
     title: "DOM Manipulation",
-    image: require('../public/assets/projects/dommanipulation.png'),
+    image: require('../public/assets/projects/dommanipulation.PNG'),
     relativeUrl: "/dommanipulation",
     projectUrl: "https://js-dom-manipulation.web.app/",
     sourceCode: `${process.env.NEXT_PUBLIC_GITHUB}DOM_Manipulation`,
