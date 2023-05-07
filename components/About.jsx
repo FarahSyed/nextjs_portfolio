@@ -18,7 +18,7 @@ const About = () => {
             applications using latest technologies. I’m
             passionate about learning new technologies and understand there is
             more than one way to accomplish a task. Though I am most proficient
-            in building applications using HTML, CSS, Javascript, ReactJS, and
+            in building applications using HTML, CSS, Javascript, ReactJS, NextJS, 
             React Native, NodeJS, ExpressJS, MongoDB, I am a quick learner and can 
             pick up new tech stacks as needed. I believe that being a great developer 
             is not using one specific language, but choosing the best tool for the job.

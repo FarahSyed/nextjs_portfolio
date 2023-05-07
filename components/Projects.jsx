@@ -53,7 +53,7 @@ const Projects = () => {
         
         <section className='flex justify-center items-center mt-5 mb-12'>
         {/* Mapping all Chips */}
-        <div onClick={() => selectChip('All')} className={`mr-5 p-1.5 px-3 ${selectedCategory == "All" ?'text-white bg-[#5651e5]':'text-black bg-white'} font-bold rounded-md hover:cursor-pointer hover:text-white hover:bg-[#5651e5]`}>
+        <div onClick={() => selectChip('All')} className={`mr-5 p-1.5 px-3 ${selectedCategory == "" ?'text-white bg-[#5651e5]':'text-black bg-white'} font-bold rounded-md hover:cursor-pointer hover:text-white hover:bg-[#5651e5]`}>
           <small>All</small>
         </div>
         {

@@ -51,8 +51,8 @@ const resume = () => {
         </div>
         <p>
           Analytical, innovative, and motivated web and mobile hybrid application
-           development professional with a passion for well-designed (UI) and functional (UX)
-           web and mobile applications. I’ve recently completed Web and Mobile Hybrid
+           development professional with a passion for well-designed, functional and responsive 
+           web and mobile applications. I've recently completed Web and Mobile Hybrid
             Application Development (MERN Stack) and have built a few projects by myself.
             I am currently enrolled in web 3.0 and metaverse course by Jawan Pakistan.
             I am eager to bring my strong sense of dedication, motivation and 
@@ -65,26 +65,26 @@ const resume = () => {
           <h5 className='text-center underline text-[18px] py-2'>Skills</h5>
           <p className='py-2'>
             <span className='font-bold'>Technical Skills</span>
-            <span className='px-2'>|</span>MERN Stack Developer
-            <span className='px-2'>|</span>Mobile App Developer
-            <span className='px-2'>|</span>HTML5
-            <span className='px-2'>|</span>CSS3
-            <span className='px-2'>|</span>JS-ES2015
-            <span className='px-2'>|</span>Bootstrap
-            <span className='px-2'>|</span>Git & GitHub
-            <span className='px-2'>|</span>Firebase
-            <span className='px-2'>|</span>ReactJS
-            <span className='px-2'>|</span>Material UI
-            <span className='px-2'>|</span>React-Redux
-            <span className='px-2'>|</span>Redux Toolkit
-            <span className='px-2'>|</span>React Native
-            <span className='px-2'>|</span>NextJS
-            <span className='px-2'>|</span>TailwindCSS
-            <span className='px-2'>|</span>Sass
-            <span className='px-2'>|</span>NodeJS
-            <span className='px-2'>|</span>ExpressJS
-            <span className='px-2'>|</span>MongoDB
-            <span className='px-2'>|</span>REST APIs
+            <span className='px-2'> |</span> MERN Stack Developer
+            <span className='px-2'> |</span> Mobile App Developer
+            <span className='px-2'> |</span> HTML5
+            <span className='px-2'> |</span> CSS3
+            <span className='px-2'> |</span> JS-ES2015
+            <span className='px-2'> |</span> Bootstrap
+            <span className='px-2'> |</span> Git & GitHub
+            <span className='px-2'> |</span> Firebase
+            <span className='px-2'> |</span> ReactJS
+            <span className='px-2'> |</span> Material UI
+            <span className='px-2'> |</span> React-Redux
+            <span className='px-2'> |</span> Redux Toolkit
+            <span className='px-2'> |</span> React Native
+            <span className='px-2'> |</span> NextJS
+            <span className='px-2'> |</span> TailwindCSS
+            <span className='px-2'> |</span> Sass
+            <span className='px-2'> |</span> NodeJS
+            <span className='px-2'> |</span> ExpressJS
+            <span className='px-2'> |</span> MongoDB
+            <span className='px-2'> |</span> REST APIs
           </p>
           {/* <p className='py-2'>
             <span className='font-bold'>Amazon Web Services</span>

@@ -15,25 +15,26 @@ const Main = () => {
             LET&#39;S BUILD SOMETHING TOGETHER
           </p>
           <h1 className='py-4 text-gray-700'>
-            Hi, I&#39;m <span className='text-[#5651e5]'>Farah</span> a
+            Hi, I&#39;m <span className='text-[#5651e5]'>Farah</span>
           </h1>
           <h1 className='py-2 text-gray-700'><Typewriter
             options={{
               strings: [
-                'Web Developer',
-                'Full/MERN Stack Developer',
-                'Mobile App Developer',
-                'React Developer',
-                'React Native Developer',
-                'NextJS Developer',
+                'A Full Stack Developer',
+                'A Web Developer',
+                'A Mobile App Developer',
+                'A JavaScript Developer',
+                'A ReactJS Developer',
+                'A React Native Developer',
+                'A NextJS Developer',
                ],
               autoStart: true,
               loop: true,
             }}
           /></h1>
           <p className='py-4 text-gray-600 sm:max-w-[70%] m-auto'>
-            I’m focused on building well-designed (UI) and 
-            functional (UX) web and mobile hybrid applications.
+            I’m focused on building responsive front-end web and mobile applications
+            integrating with back-end technologies.
           </p>
           <div className='flex items-center justify-between max-w-[330px] m-auto py-4'>
             <a
