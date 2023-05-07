@@ -52,7 +52,7 @@ const resume = () => {
         <p>
           Analytical, innovative, and motivated web and mobile hybrid application
            development professional with a passion for well-designed, functional and responsive 
-           web and mobile applications. I've recently completed Web and Mobile Hybrid
+           web and mobile applications. I’ve recently completed Web and Mobile Hybrid
             Application Development (MERN Stack) and have built a few projects by myself.
             I am currently enrolled in web 3.0 and metaverse course by Jawan Pakistan.
             I am eager to bring my strong sense of dedication, motivation and 
