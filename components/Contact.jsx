@@ -5,7 +5,7 @@ import { AiOutlineMail } from 'react-icons/ai';
 import { BsFillPersonLinesFill } from 'react-icons/bs';
 import { FaGithub, FaLinkedinIn } from 'react-icons/fa';
 import ContactImg from '../public/assets/contact.jpg';
-
+// import ans from '../pages/api/contact/route'
 
 const Contact = () => {
 
@@ -18,6 +18,7 @@ const Contact = () => {
     message: "",
    });
    const [errors, setErrors] = useState({});
+   const [status, setStatus] = useState(null);
 
    let validate = (e) => {
     e.preventDefault(); // Prevent page refresh on submit
@@ -51,17 +52,38 @@ const Contact = () => {
       setObject({ ...object });
     }
 
-    const handleSubmit = () => {
+    const handleSubmit = async () => {
       // console.log(object);
-      setObject({
-        name: "",
-        phoneNumber: "",
-        email: "",
-        subject: "",
-        message: "",
+      try{
+        const response = await fetch('/#contact/api/contact/', {
+          method:'POST',
+          headers:{"Content_Type":"application/json"},
+          body: JSON.stringify({
+            name: object.name,
+            phone_number: object.phoneNumber,
+            email: object.email,
+            subject: object.subject,
+            message: object.message,
+          })
       })
-      console.log("Form Submitted Successfully");
-    
+      // Set the status based on the response from the API route
+      if (response.status === 200) {
+        setObject({
+          name: "",
+          phoneNumber: "",
+          email: "",
+          subject: "",
+          message: "",
+        })
+          setStatus('success');
+          console.log("Form Submitted Successfully");
+      } else {
+          setStatus('error');
+      }
+
+      } catch(err) {
+        console.log(err);
+      }
     }
 
   const fieldFocused = (input) => {
@@ -150,6 +172,7 @@ const Contact = () => {
                       value={object.name} onFocus={() => fieldFocused('name')}
                       // required={true} 
                       onChange={(e) => fillObject('name', e.target.value)}
+                      autoComplete='off'
                     />
                   {errors && errors.name ? <small className='pt-2 pl-2 text-red-600'>{errors.name}</small> : null}
                   </div>
@@ -163,6 +186,7 @@ const Contact = () => {
                       name='phoneNumber'
                       value={object.phoneNumber}
                       onChange={(e) => fillObject('phoneNumber', e.target.value)}
+                      autoComplete='off'
                     />
                   </div>
                 </div>
@@ -174,6 +198,7 @@ const Contact = () => {
                     name='email'
                     value={object.email} onFocus={() => fieldFocused('email')}
                     onChange={(e) => fillObject('email', e.target.value)}
+                    autoComplete='off'
                   />
                   {errors && errors.email ? <small className='pt-2 pl-2 text-red-600'>{errors.email}</small> : null}
                 </div>
@@ -185,6 +210,7 @@ const Contact = () => {
                     name='subject'
                     value={object.subject}
                     onChange={(e) => fillObject('subject', e.target.value)}
+                    autoComplete='off'
                   />
                 </div>
                 <div className='flex flex-col py-2'>
@@ -196,8 +222,14 @@ const Contact = () => {
                     value={object.message} onFocus={() => fieldFocused('message')}
                     // required={true}
                     onChange={(e) => fillObject('message', e.target.value)}
+                    autoComplete='off'
                   ></textarea>
                   {errors && errors.message ? <small className='pt-2 pl-2 text-red-600'>{errors.message}</small> : null}
+                </div>
+
+                <div>
+                  {status === 'success' && <p className='pt-2 pl-2 text-green-600'>Thank you for your message!</p>}
+                  {status === 'error' && <p className='pt-2 pl-2 text-red-600'>There was an error submitting your message. Please try again.</p>}
                 </div>
                 <button className='w-full p-4 text-gray-100 mt-4'>
                   Send Message
