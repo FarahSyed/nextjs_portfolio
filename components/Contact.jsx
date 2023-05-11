@@ -1,3 +1,4 @@
+'use client'
 import Image from 'next/image';
 import Link from 'next/link';
 import React, { useState } from 'react';
@@ -18,7 +19,7 @@ const Contact = () => {
     message: "",
    });
    const [errors, setErrors] = useState({});
-   const [status, setStatus] = useState(null);
+   const [status, setStatus] = useState("");
 
    let validate = (e) => {
     e.preventDefault(); // Prevent page refresh on submit
@@ -76,7 +77,7 @@ const Contact = () => {
           message: "",
         })
           setStatus('success');
-          console.log("Form Submitted Successfully");
+          // console.log("Form Submitted Successfully");
       } else {
           setStatus('error');
       }

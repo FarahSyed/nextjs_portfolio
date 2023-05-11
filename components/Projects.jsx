@@ -23,11 +23,11 @@ const Projects = () => {
   // Set selected Category in selectedCategory and Update Filtered List
   const selectChip = e => {
     if (e === "All") {
-      console.log(e)
+      // console.log(e)
       setSelectedCategory("");
       setFilterList("");
     } else {
-      console.log(e)
+      // console.log(e)
       setSelectedCategory(e);
       setFilterList([e]);
       let arr = [];
