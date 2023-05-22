@@ -6,7 +6,7 @@ import { AiOutlineMail } from 'react-icons/ai';
 import { BsFillPersonLinesFill } from 'react-icons/bs';
 import { FaGithub, FaLinkedinIn } from 'react-icons/fa';
 import ContactImg from '../public/assets/contact.jpg';
-// import ans from '../pages/api/contact/route'
+
 
 const Contact = () => {
 
