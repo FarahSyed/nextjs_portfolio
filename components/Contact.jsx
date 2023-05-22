@@ -58,7 +58,11 @@ const Contact = () => {
       try{
         const response = await fetch('/#contact/api/contact/', {
           method:'POST',
-          headers:{"Content_Type":"application/json"},
+          headers:{
+            "Content_Type":"application/json",
+            'Access-Control-Allow-Origin': '*',
+            'Access-Control-Allow-Methods': 'GET,OPTIONS,PATCH,DELETE,POST,PUT'
+          },
           body: JSON.stringify({
             name: object.name,
             phone_number: object.phoneNumber,
