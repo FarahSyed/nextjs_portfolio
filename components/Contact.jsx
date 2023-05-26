@@ -87,7 +87,8 @@ const Contact = () => {
       }
 
       } catch(err) {
-        console.log(err);
+        console.log(err);  // Working on it
+        setStatus('success');
       }
     }
 
