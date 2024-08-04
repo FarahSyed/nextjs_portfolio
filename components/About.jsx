@@ -14,14 +14,14 @@ const About = () => {
           </p>
           <h2 className='py-4'>Who I Am</h2>
           <p className='py-2 text-gray-600'>
-            I specialize in building full stack web and mobile hybrid 
-            applications using latest technologies. I’m
-            passionate about learning new technologies and understand there is
-            more than one way to accomplish a task. Though I am most proficient
-            in building applications using HTML, CSS, Javascript, ReactJS, NextJS, 
-            React Native, NodeJS, ExpressJS, MongoDB, I am a quick learner and can 
-            pick up new tech stacks as needed. I believe that being a great developer 
-            is not using one specific language, but choosing the best tool for the job.
+            I specialize in building full stack web and mobile hybrid applications 
+            using latest technologies. I’m passionate about learning new technologies 
+            and understand there is more than one way to accomplish a task. Though I am 
+            most proficient in building applications using HTML, CSS, JavaScript, 
+            TypeScript, ReactJS, NextJS, React Native, NodeJS, ExpressJS, MongoDB, 
+            I systematically acquire and apply knowledge, continuously refine my skills, 
+            and work towards a deep understanding of complex software engineering concepts 
+            and technologies.
           </p>
           <Link href='/#projects'>
             <p className='py-2 text-gray-600 underline cursor-pointer'>

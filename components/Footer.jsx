@@ -6,6 +6,11 @@ import { HiOutlineChevronDoubleUp } from 'react-icons/hi';
 
 
 const Footer = () => {
+
+  const year = new Date().getFullYear();
+  const currentYear = year.toString().slice(-2);
+
+
   return (
     <div className='w-full md:h-50 mt-80 bg-[#d0d4d6] px-10 py-5 flex justify-between items-center'>
       <Link href='/'>
@@ -25,7 +30,7 @@ const Footer = () => {
       <div>
       <small><b>Copyright &#169;
         {/* <BiCopyright size={12} /> */}
-         {new Date().getFullYear()} - All rights reserved.</b></small>
+        &nbsp; 2023-{currentYear}. All rights reserved.</b></small>
       </div>
         
           <div>

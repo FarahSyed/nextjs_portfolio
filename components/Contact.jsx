@@ -55,24 +55,24 @@ const Contact = () => {
 
     const handleSubmit = async () => {
       // console.log(object);
-      // try{
-      //   const response = await fetch('/#contact/api/contact/', {
-      //     method:'POST',
-      //     headers:{
-      //       "Content_Type":"application/json",
-      //       'Access-Control-Allow-Origin': '*',
-      //       'Access-Control-Allow-Methods': 'GET,OPTIONS,PATCH,DELETE,POST,PUT'
-      //     },
-      //     body: JSON.stringify({
-      //       name: object.name,
-      //       phone_number: object.phoneNumber,
-      //       email: object.email,
-      //       subject: object.subject,
-      //       message: object.message,
-      //     })
-      // })
-      // // Set the status based on the response from the API route
-      // if (response.status === 200) {
+      try{
+        const response = await fetch('/#contact/api/contact/', {
+          method:'POST',
+          headers:{
+            "Content_Type":"application/json",
+            'Access-Control-Allow-Origin': '*',
+            'Access-Control-Allow-Methods': 'GET,OPTIONS,PATCH,DELETE,POST,PUT'
+          },
+          body: JSON.stringify({
+            name: object.name,
+            phone_number: object.phoneNumber,
+            email: object.email,
+            subject: object.subject,
+            message: object.message,
+          })
+      })
+      // Set the status based on the response from the API route
+      if (response.status === 200) {
         setObject({
           name: "",
           phoneNumber: "",
@@ -81,14 +81,14 @@ const Contact = () => {
           message: "",
         })
           setStatus('success');
-          // console.log("Form Submitted Successfully");
-      // } else {
-      //     setStatus('error');
-      // }
+          console.log("Form Submitted Successfully");
+      } else {
+          setStatus('error');
+      }
 
-      // } catch(err) {
-      //   console.log(err);
-      // }
+      } catch(err) {
+        console.log(err);
+      }
     }
 
   const fieldFocused = (input) => {

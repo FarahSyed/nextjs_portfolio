@@ -50,14 +50,11 @@ const resume = () => {
           </div>
         </div>
         <p>
-          Analytical, innovative, and motivated web and mobile hybrid application
-           development professional with a passion for well-designed, functional and responsive 
-           web and mobile applications. I’ve recently completed Web and Mobile Hybrid
-            Application Development (MERN Stack) and have built a few projects by myself.
-            I am currently enrolled in web 3.0 and metaverse course by Jawan Pakistan.
-            I am eager to bring my strong sense of dedication, motivation and 
-            responsibility to an Organization and enhance my professional skills in a 
-            stable and dynamic workplace.
+          Analytical, innovative, and motivated web and mobile hybrid application development 
+          professional with a passion for building well-designed, functional, and responsive 
+          applications. I am well-versed in the MERN stack and have gained expertise through successful 
+          project implementations that showcase strong problem-solving skills and attention to detail. 
+          Eager to contribute to dynamic projects and drive impactful results.
         </p>
 
         {/* Skills */}
@@ -70,6 +67,7 @@ const resume = () => {
             <span className='px-2'> |</span> HTML5
             <span className='px-2'> |</span> CSS3
             <span className='px-2'> |</span> JS-ES2015
+            <span className='px-2'> |</span> TypeScript
             <span className='px-2'> |</span> Bootstrap
             <span className='px-2'> |</span> Git & GitHub
             <span className='px-2'> |</span> Firebase
@@ -105,7 +103,7 @@ const resume = () => {
             </span>
             <span className='px-2'>|</span>Karachi, Pakistan
           </p>
-          <p className='py-1 italic'>Mentoring Online (2022 - Current)</p>
+          <p className='py-1 italic'>Mentoring Online (2022 - 2023)</p>
           <ul className='list-disc list-outside px-7 py-1 leading-relaxed'>
             <li>
               In August, 2022 I started mentoring online focused on
@@ -121,7 +119,7 @@ const resume = () => {
         </div>
 
         {/* Experience */}
-        <div className='py-6'>
+        {/* <div className='py-6'>
           <p className='italic'>
             <span className='font-bold italic'>
             Charter for Compassion - Pakistan
@@ -139,7 +137,7 @@ const resume = () => {
             Learning Outcomes, Teachers Training, Training Needs Analysis (TNA), etc.
             </li>
           </ul>
-        </div>
+        </div> */}
 
         {/* <h5 className='text-center underline text-[18px] py-4'>
           Other Professional Experience
